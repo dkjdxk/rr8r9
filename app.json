@@ -13,27 +13,27 @@
     "success_url": "https://t.me/EITHON1",
     "env": {
         "API_ID": {
-            "description": "حط ايبي ايدي",
+            "description": "حط ايبي ايدي",
             "required": true
         },
         "API_HASH": {
-            "description": "حط ايبي هاش",
+            "description": "حط ايبي هاش",
             "required": true
         },
         "BOT_TOKEN": {
-            "description": "توكن بوت ",
+            "description": "توكن بوت",
             "required": true
         },
         "BOT_USERNAME": {
-            "description": "معرف بوت من بوت فاذر بدون @ ",
+            "description": "معرف بوت من بوت فاذر بدون @ ",
             "required": true
         },
         "BOT_NAME": {
-            "description": "اسم بوتك ياحلو",
+            "description": "اسم بوتك ياحلو",
             "required": true
         },
         "ASSISTANT_NAME": {
-            "description": "حط يوزر مساعد @",
+            "description": "حط يوزر مساعد @",
             "required": true
         },
         "SESSION_NAME": {
@@ -41,7 +41,7 @@
             "required": true
         },
         "SUDO_USERS": {
-            "description": "حط معرفك ",
+            "description": "حط معرفك",
             "required": true
         },
         "GROUP_SUPPORT": {
