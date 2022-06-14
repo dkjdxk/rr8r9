@@ -1,5 +1,5 @@
 {
-    "name": "سورس ايــثــون ميوزك بوت الاول في التلجرام قناتنا الرسميه @EITHON1",
+    "name": "خامطين سورس غصبا على راعيه @e_e_2" 
     "description": "Telegram bot for Streaming Video & Music trought the Telegram Group Video Chat, powered by pytgcalls and pyrogram",
     "logo": "https://telegra.ph/file/4763d6135a6dec50390b7.jpg",
     "keywords": [
@@ -13,54 +13,54 @@
     "success_url": "https://t.me/EITHON1",
     "env": {
         "API_ID": {
-            "description": "your API_ID from my.telegram.org",
+            "description": "حط ايبي ايدي",
             "required": true
         },
         "API_HASH": {
-            "description": "your API_HASH from my.telegram.org",
+            "description": "حط ايبي هاش",
             "required": true
         },
         "BOT_TOKEN": {
-            "description": "your bot token from @BotFather",
+            "description": "توكن بوت ",
             "required": true
         },
         "BOT_USERNAME": {
-            "description": "your bot username from @BotFather",
+            "description": "معرف بوت من بوت فاذر بدون @ ",
             "required": true
         },
         "BOT_NAME": {
-            "description": "fill with your bot name from @BotFather",
+            "description": "اسم بوتك ياحلو",
             "required": true
         },
         "ASSISTANT_NAME": {
-            "description": "fill with the assistant username account without @",
+            "description": "حط يوزر مساعد @",
             "required": true
         },
         "SESSION_NAME": {
-            "description": "fill with the pyrogram String Session",
+            "description": "حط كود بايروجرام",
             "required": true
         },
         "SUDO_USERS": {
-            "description": "list of user ids to be added to sudo member list, or just fill with your id",
+            "description": "حط معرفك ",
             "required": true
         },
         "GROUP_SUPPORT": {
-            "description": "if you have group, then fill the group username here without @",
+            "description": "@حط مجموعتك بدون ال",
             "required": true,
             "value": "eithonsupport"
         },
         "UPDATES_CHANNEL": {
-            "description": "if you have channel, then fill the channel username here without @",
+            "description": "حط قناتك بدون ال@",
             "required": true,
             "value": "EITHON1"
         },
         "OWNER_NAME": {
-            "description": "fill with your telegram account username without @",
+            "description": "يوزر حسابك مساعد",
             "required": true,
             "value": ""
         },
         "ALIVE_NAME": {
-            "description": "fill with your telegram account nickname/name",
+            "description": "اسم حسابك بتلي",
             "required": true,
             "value": ""
         }
