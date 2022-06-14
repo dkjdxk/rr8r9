@@ -57,7 +57,7 @@ def updater():
 @sudo_users_only
 async def update_repo(_, message: Message):
     chat_id = message.chat.id
-    msg = await message.reply("🔄 `برمجه وكتابه افين الخالدي ...`")
+    msg = await message.reply("🔄 `برمجه وكتابه حلم تاج راسكم  ...`")
     update_avail = updater()
     if update_avail:
         await msg.edit("👤 يمكن شراء بوت بحقوقك كامل \n\n• او نسخه سورس بحقوقك بأرخص الأسعار حسابي الوحيد : SsSsvS.")
