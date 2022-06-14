@@ -32,7 +32,7 @@ async def join_chat(c: Client, m: Message):
                 can_manage_voice_chats=True
             )
             return await user.send_message(chat_id, "✅ حٌسأّبِ أّلَمَسأّعٌدِ بِلَفِّعٌلَ مَوِجِوِدِ")
-        return await user.send_message(chat_id, "✅ لَتّلَحٌ يِّأّ خَڒٍأّأّ مَوِجِوِدِ أّفِّهِمَ")
+        return await user.send_message(chat_id, "✅ لَتّلَحٌ يِّأّ خَڒٍأّأّ ترا صيح عليك حلم ")
 
 
 @Client.on_message(command(["غادر",
@@ -45,7 +45,7 @@ async def leave_chat(_, m: Message):
         await user.leave_chat(chat_id)
         return await _.send_message(
             chat_id,
-            "✅ غادر المجموعة بايي بايي ",
+            "✅ غادرت مجموعة يابرابيك تحتاجوني ",
         )
     except UserNotParticipant:
         return await _.send_message(
