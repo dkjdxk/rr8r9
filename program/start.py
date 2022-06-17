@@ -58,6 +58,9 @@ async def start_(client: Client, message: Message):
 ᥀︙ **لمعرفة اوامر هذا البوت اضغط على » الاوامر الاساسية!**
 
 ᥀︙ **لمعرفة طريقة تشغيل هذا البوت اضغط على » طريقة التشغيل!**
+
+᥀︙تم اصدار هذا البوت من قبل ميمو @N_J_9
+
 """,
         reply_markup=InlineKeyboardMarkup(
             [
@@ -82,7 +85,7 @@ async def start_(client: Client, message: Message):
                 ],
                 [
                     InlineKeyboardButton(
-                        "‹لتنصيب بوت مماثل›", url="https://t.me/N_J_9"
+                        "تم تطوير البوت بواسطة", url="https://t.me/N_J_9"
                     )
                 ],
             ]
